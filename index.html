@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!--created by Michael Schlimmer-->
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Key Systems, Inc TouchScreen POC</title>
+
+    <link rel="stylesheet" href="css/pure-min.css" media="all" type="text/css" >
+    <link rel="stylesheet" href="css/style.css" type="text/css"  />
+</head>
+
+<body>
+
+    <div class="pure-g">
+
+        <div class="banner pure-u-1" id="banner" >
+            <img src="images/banner.jpg" />
+        </div>
+
+        <div class="pure-u-5-8 leftPane">
+
+            <div class="leftContainer ">
+
+                <div class="messageField1"><p>message....</p></div>
+
+                <button class="msgBtn button1" id="button1" value="button1" >button1</button>
+                <button class="msgBtn button2" id="button2" value="button2" >button2</button>
+                <button class="msgBtn button3 reload" id="reload" value="reload_page" >reload page</button>
+                <button class="msgBtn button4" id="submit_pin" value="submit_pin" >Submit Pin</button>
+
+            </div>
+
+            <div class="pure-u-1 feature_button_row" ><!-- /*id="feature_button_row"*/-->
+                <img src="images/comps_enter_mileage.png" alt="Mileage" style="margin-left: 25px;" id="mileage_button" class="feature_image">
+                <img class="feature_image broken_button" id="broken_button" src="images/comps_broken_key.png" alt="Broken"  >
+                <img class="feature_image silence_button" id="silence_button" src="images/comps_silence_alarm.png" alt="Silence"  >
+            </div>
+
+            <div class="pane-row" id="messaging_row">
+                <input type="text" id="messaging" style="width: 300px; margin-left: 25px; display: none;">
+            </div>
+
+        </div>
+
+        <div class="pure-u-3-8 rightPane">
+            <div class="numpadContainer">
+
+                <input type="password" class="numpad1Screen" placeholder="numpad1Screen" />
+
+                <ul class="numpad numpad1">
+                    <li class="symbol"><span>1</span></li>
+                    <li class="symbol"><span>2</span></li>
+                    <li class="symbol"><span>3</span></li>
+                    <li class="symbol"><span>4</span></li>
+                    <li class="symbol"><span>5</span></li>
+                    <li class="symbol"><span>6</span></li>
+                    <li class="symbol"><span>7</span></li>
+                    <li class="symbol"><span>8</span></li>
+                    <li class="symbol"><span>9</span></li>
+                    <li class="OK"><span>OK</span></li>
+                    <li class="symbol"><span>0</span></li>
+                    <li class="Clr"><span>Clr</span></li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="panel_buffer1" style="display: none;"></div>
+    <div id="panel_buffer2" style="display: none;"></div>
+    <div id="panel_buffer3" style="display: none;"></div>
+    <div id="panel_buffer4" style="display: none;"></div>
+
+    <script type="text/javascript" src="js/jquery-1.9.0.min.js"></script>
+    <!--<script type="text/javascript" src="js/json.js"></script>-->
+    <script type="text/javascript" src="js/underscore-min.js"></script>
+    <script type="text/javascript" src="js/backbone-min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <!-- <script src='js/jquery.autosize.js'></script> -->
+
+</body>
+</html>

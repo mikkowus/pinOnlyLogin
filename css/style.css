@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    /*cursor:none;*/
+    -webkit-user-select: none;
+}
+
+/*layout stuff*/
+/*///////////////////////*/
+body
+{
+    /*font: 71%/1.5 Verdana, Sans-Serif;-->*/
+    background-color: rgb(68, 68, 68);
+}
+.banner
+{
+
+}
+.leftPane
+{
+    position: relative;
+    height: 370px;
+    /*background-color: #BBCCFF;*/
+    /*text-align: center;*/
+}
+
+.leftContainer
+{
+    width: 360px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*///message area stuff///*/
+.messageDiv
+{
+    text-align: center;
+}
+
+.messageField1
+{
+    display: block;
+    margin: 4px;
+
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    background: #ffffff;
+    min-height: 112px;
+    padding: 4px;
+    font-size: 125%;
+
+}
+
+.msgBtn
+{
+    display: block;
+    float: left;
+    width: 172px;
+    margin: 4px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    font-size: 150%;
+
+    padding: 4px;
+    height: 72px;
+}
+/*/// end message area stuff ////*/
+
+.feature_button_row
+{
+    text-align: center;
+    position:absolute;
+    bottom:0;
+    right:0;
+    clear:right;
+}
+
+.feature_image
+{
+    height: 80px;
+    width: 80px;
+}
+
+.rightPane
+{
+
+}
+
+/*//// button stuff////*/
+
+
+
+
+/*////end button stuff////*/
+
+/*///KEYBOARD STUFF*/
+.numpadContainer
+{
+    width: 240px;
+    height:370px;
+
+    /*background:purple;*/
+}
+
+.numpad1Screen
+{
+    margin: 4px;
+    width: 230px;
+    height: 40px;
+    font: 1em/1.5 Verdana, Sans-Serif;
+    background: #fff;
+    border: 1px solid #f9f9f9;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+
+    font-size: 150%;
+}
+
+.numpad1
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.numpad1 li
+{
+    float: left;
+    margin: 4px;
+    width: 72px;
+    height: 72px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+
+
+    background: #e5e5e5;
+    text-align: center;
+    line-height: 72px;
+    font-size: 150%;
+
+    /*
+    border: 1px solid #f9f9f9;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    */
+
+}
+/*///////END KEYBOARD STUFF*/
